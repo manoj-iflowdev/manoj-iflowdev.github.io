@@ -1,0 +1,22 @@
+{
+  "heading": "$ cat about.md",
+  "bio": [
+    "Senior SAP CPI Consultant with 5+ years of experience in SAP integration technologies, specializing in SAP CPI, PI/PO, and hybrid integration landscapes. Proven expertise in designing, developing, and optimizing scalable integration solutions, ensuring secure, high-performance data exchange across SAP and non-SAP systems.",
+    "Seeking to contribute deep technical knowledge and integration best practices to complex enterprise transformation initiatives."
+  ],
+  "highlights": [
+    {
+      "label": "Years Experience",
+      "value": "1+"
+    },
+    {
+      "label": "Projects Completed",
+      "value": "0+"
+    },
+    {
+      "label": "Technologies",
+      "value": "55+"
+    }
+  ],
+  "currentFocus": "SAP CPI Consultant"
+}

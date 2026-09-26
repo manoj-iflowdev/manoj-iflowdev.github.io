@@ -1,0 +1,79 @@
+{
+  "heading": "$ ls -la skills/",
+  "categories": [
+    {
+      "name": "languages",
+      "permissions": "drwxr-xr-x",
+      "items": [
+        "Groovy Scripting",
+        "XSLT",
+        "User-Defined Functions (UDFs)"
+      ]
+    },
+    {
+      "name": "tools",
+      "permissions": "drwxr-xr-x",
+      "items": [
+        "Agile / Scrum",
+        "JIRA",
+        "Confluence",
+        "ServiceNow",
+        "Git",
+        "Postman"
+      ]
+    },
+    {
+      "name": "technical",
+      "permissions": "drwxr-xr-x",
+      "items": [
+        "SAP Cloud Platform Integration (CPI)",
+        "SAP Integration Suite",
+        "SAP Process Integration / Process Orchestration (PI/PO)",
+        "SAP API Management",
+        "SAP S/4HANA",
+        "SAP ECC",
+        "SAP SuccessFactors",
+        "SAP Ariba",
+        "SAP Hybris / SAP Commerce",
+        "SAP CRM",
+        "SOAP",
+        "REST",
+        "OData",
+        "IDoc",
+        "RFC",
+        "Proxy",
+        "SFTP",
+        "FTP",
+        "HTTPS",
+        "AS2",
+        "JMS",
+        "Message Mapping",
+        "Value Mapping",
+        "API-led Integration",
+        "RESTful Web Services",
+        "Enterprise Integration Patterns (EIP)",
+        "Event-Driven Architecture",
+        "OAuth 2.0",
+        "X.509 Certificates",
+        "PGP Encryption / Decryption",
+        "SSL/TLS",
+        "SAP Secure Store",
+        "SAP Cloud Connector",
+        "Hybrid Integration Scenarios",
+        "BTP Connectivity Services",
+        "SAP CPI Monitoring",
+        "Message Processing Logs",
+        "Exception Handling",
+        "Performance Tuning",
+        "Root Cause Analysis",
+        "PI/PO to CPI Migration",
+        "ECC to S/4HANA Integration",
+        "Cloud Integration Best Practices",
+        "CTS+",
+        "CI/CD Pipelines",
+        "Transport Management Service (TMS)"
+      ]
+    }
+  ],
+  "githubUsername": "manoj-iflowdev"
+}

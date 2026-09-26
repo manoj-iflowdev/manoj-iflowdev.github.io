@@ -1,0 +1,15 @@
+{
+  "heading": "$ cat /var/log/education.log",
+  "entries": [
+    {
+      "institution": "Trine University - Texas, USA",
+      "degree": "Masters",
+      "field": "Computer Science",
+      "startDate": "Jul 2023",
+      "endDate": "May 2025",
+      "gpa": "",
+      "honors": []
+    }
+  ],
+  "certifications": []
+}

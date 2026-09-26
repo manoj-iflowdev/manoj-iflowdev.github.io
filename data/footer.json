@@ -1,0 +1,12 @@
+{
+  "copyright": "Manoj Gali",
+  "year": "2026",
+  "tagline": "Built with vanilla HTML/CSS/JS. No frameworks harmed.",
+  "links": [
+    {
+      "label": "Email",
+      "url": "mailto:manoj.gali695@gmail.com",
+      "icon": "email"
+    }
+  ]
+}
