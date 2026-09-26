@@ -631,6 +631,39 @@ main {
   width: 100%;
   height: 100%;
   object-fit: cover;
+  object-position: center 30%;
+}
+
+/* Company logo in experience timeline */
+.exp-logo {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  height: 44px;
+  margin-bottom: 0.5rem;
+}
+
+.exp-logo img {
+  max-height: 100%;
+  max-width: 130px;
+  width: auto;
+  object-fit: contain;
+}
+
+/* Project card cover image */
+.project-image {
+  margin: -1.5rem -1.5rem 1.25rem;
+  border-bottom: 2px solid var(--border);
+  aspect-ratio: 16 / 9;
+  overflow: hidden;
+  background: var(--surface);
+}
+
+.project-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
 }
 
 .about-available-badge {

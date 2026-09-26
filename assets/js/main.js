@@ -378,6 +378,7 @@
       return '<div class="experience-card">' +
         '<div class="exp-header">' +
           '<div class="exp-header-left">' +
+            (pos.logo ? '<span class="exp-logo"><img src="' + esc(pos.logo) + '" alt="' + esc(pos.company) + ' logo" loading="lazy"></span>' : '') +
             '<span class="exp-company">' + esc(pos.company) + '</span>' +
             (statusLabel ? '<span class="exp-status running">' + statusLabel + '</span>' : '') +
           '</div>' +
@@ -466,8 +467,13 @@
       if (proj.liveUrl) linksHTML += '<a href="' + esc(proj.liveUrl) + '" target="_blank" rel="noopener noreferrer" class="project-link">' + icon('external') + ' Live Demo</a>';
       linksHTML += '</div>';
 
+      var imageHTML = proj.image
+        ? '<div class="project-image"><img src="' + esc(proj.image) + '" alt="' + esc(proj.name) + ' preview" loading="lazy"></div>'
+        : '';
+
       return '<div class="project-card">' +
         newBadge +
+        imageHTML +
         '<div class="project-name"><span class="lang-dot ' + langClass + '"></span>' + esc(proj.name) + '</div>' +
         '<div class="project-description">' + esc(proj.description) + '</div>' +
         metaHTML + techHTML + linksHTML +

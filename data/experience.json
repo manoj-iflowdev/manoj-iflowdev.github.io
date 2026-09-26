@@ -39,7 +39,8 @@
         "Confluence",
         "Postman",
         "Git"
-      ]
+      ],
+      "logo": "assets/img/logos/conocophillips.svg"
     },
     {
       "pid": "1237",
@@ -80,7 +81,8 @@
         "Confluence",
         "Git",
         "Postman"
-      ]
+      ],
+      "logo": "assets/img/logos/jpmorgan-chase.svg"
     },
     {
       "pid": "1137",
@@ -121,7 +123,8 @@
         "SAP BTP",
         "JIRA",
         "Confluence"
-      ]
+      ],
+      "logo": "assets/img/logos/bal-pharma.png"
     },
     {
       "pid": "1037",
@@ -156,7 +159,8 @@
         "X.509 certificates",
         "SSL/TLS",
         "SAP BTP"
-      ]
+      ],
+      "logo": "assets/img/logos/nike.svg"
     }
   ]
 }
