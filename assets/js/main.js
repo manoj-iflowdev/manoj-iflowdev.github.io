@@ -440,6 +440,10 @@
   function renderProjects(projData) {
     if (!projData) return;
 
+    // No projects yet: hide the whole section
+    var section = $('projects');
+    if (section) section.style.display = (projData.projects && projData.projects.length) ? '' : 'none';
+
     var heading = $('projects-heading');
     if (heading) heading.textContent = 'Projects.';
 
@@ -677,7 +681,7 @@
         }).join('<br>');
       },
       projects: function () {
-        if (!projData || !projData.projects) return 'No projects data.';
+        if (!projData || !projData.projects || !projData.projects.length) return 'No projects yet.';
         return projData.projects.map(function (p, i) {
           var url = p.githubUrl || '#projects';
           return '<a href="' + esc(url) + '" target="_blank" class="cmd-link">' + (i + 1) + '. ' + esc(p.name) + '</a>';
@@ -817,6 +821,11 @@
     // Boot sequence — disabled
     var bootEl = $('boot-overlay');
     if (bootEl) bootEl.style.display = 'none';
+
+    // Hide the Projects nav link while there are no projects to show
+    if (navData && navData.items && !(projData && projData.projects && projData.projects.length)) {
+      navData.items = navData.items.filter(function (item) { return item.href !== '#projects'; });
+    }
 
     // Render
     renderNavbar(navData);
