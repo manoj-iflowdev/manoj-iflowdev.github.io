@@ -30,6 +30,11 @@
     return String(str).replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;');
   }
 
+  // Escapes text, then wraps "SAP BTP" mentions for visual emphasis
+  function highlightBTP(str) {
+    return esc(str).replace(/SAP BTP/g, '<strong class="btp-highlight">SAP BTP</strong>');
+  }
+
   function $(id) { return document.getElementById(id); }
   function delay(ms) { return new Promise(function (r) { setTimeout(r, ms); }); }
 
@@ -456,7 +461,8 @@
 
       var techHTML = '<div class="project-technologies">' +
         (proj.technologies || []).map(function (t) {
-          return '<span class="project-tech-badge">' + esc(t) + '</span>';
+          var isBTP = /BTP/.test(t);
+          return '<span class="project-tech-badge' + (isBTP ? ' project-tech-badge--btp' : '') + '">' + esc(t) + '</span>';
         }).join('') +
         '</div>';
 
@@ -479,7 +485,7 @@
         newBadge +
         imageHTML +
         '<div class="project-name"><span class="lang-dot ' + langClass + '"></span>' + esc(proj.name) + '</div>' +
-        '<div class="project-description">' + esc(proj.description) + '</div>' +
+        '<div class="project-description">' + highlightBTP(proj.description) + '</div>' +
         metaHTML + techHTML + linksHTML +
       '</div>';
     }).join('');

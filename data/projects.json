@@ -1,4 +1,89 @@
 {
   "heading": "$ find ~/projects -type d -maxdepth 1",
-  "projects": []
+  "projects": [
+    {
+      "name": "distributed-sap-cloud-integration",
+      "description": "Failover and high-availability patterns for SAP Cloud Integration on SAP BTP, using Azure Front Door and Traffic Manager to route around maintenance windows and keep iFlows running through regional outages.",
+      "technologies": ["SAP Cloud Integration", "SAP BTP", "Groovy", "Azure Front Door", "Azure Traffic Manager", "Azure Key Vault"],
+      "stars": 0,
+      "forks": 0,
+      "language": "",
+      "liveUrl": "",
+      "githubUrl": "https://github.com/manoj-iflowdev/distributed-sap-cloud-integration",
+      "isNew": false,
+      "image": "assets/img/project-distributed-sap-cloud-integration.png"
+    },
+    {
+      "name": "az-private-linky-integration-suite",
+      "description": "SAP Integration Suite iFlows on SAP BTP that reach SAP S/4HANA over Azure Private Link Service, removing the need for a Cloud Connector while keeping traffic off the public internet.",
+      "technologies": ["SAP Integration Suite", "SAP BTP", "Azure Private Link", "S/4HANA", "OData"],
+      "stars": 0,
+      "forks": 0,
+      "language": "",
+      "liveUrl": "",
+      "githubUrl": "https://github.com/manoj-iflowdev/az-private-linky-integration-suite",
+      "isNew": false,
+      "image": "assets/img/project-az-private-linky-integration-suite.png"
+    },
+    {
+      "name": "az-private-linky-cap",
+      "description": "A CAP backend on SAP BTP that consumes SAP S/4HANA over Azure Private Link Service, pairing with a companion Integration Suite iFlow for a Cloud-Connector-free architecture.",
+      "technologies": ["SAP CAP", "SAP BTP", "Azure Private Link", "S/4HANA", "Node.js"],
+      "stars": 0,
+      "forks": 0,
+      "language": "JavaScript",
+      "liveUrl": "",
+      "githubUrl": "https://github.com/manoj-iflowdev/az-private-linky-cap",
+      "isNew": false,
+      "image": "assets/img/project-az-private-linky-cap.png"
+    },
+    {
+      "name": "ibm-eis-sap-btp",
+      "description": "Connects IBM Environmental Intelligence Suite weather data into SAP BTP — sharing a single EIS API key across business units through SAP Integration Suite and pushing weather alerts to apps via SAP Event Mesh.",
+      "technologies": ["SAP Integration Suite", "SAP BTP", "SAP Event Mesh", "SAP Build Apps", "REST API"],
+      "stars": 0,
+      "forks": 0,
+      "language": "",
+      "liveUrl": "",
+      "githubUrl": "https://github.com/manoj-iflowdev/ibm-eis-sap-btp",
+      "isNew": false,
+      "image": "assets/img/project-ibm-eis-sap-btp.png"
+    },
+    {
+      "name": "ci-cd-sap-cloud-integration",
+      "description": "A native CI/CD approach for SAP Cloud Integration on SAP BTP, using Groovy and chained CPI APIs to automate integration flow delivery without external pipeline tools.",
+      "technologies": ["SAP Cloud Integration", "SAP BTP", "Groovy", "CI/CD"],
+      "stars": 0,
+      "forks": 0,
+      "language": "Groovy",
+      "liveUrl": "",
+      "githubUrl": "https://github.com/manoj-iflowdev/ci-cd-sap-cloud-integration",
+      "isNew": false,
+      "image": "assets/img/project-ci-cd-sap-cloud-integration.png"
+    },
+    {
+      "name": "sci-rest-client",
+      "description": "A REST client for SAP Cloud Integration's Integration Content API on SAP BTP — handling URL construction, CSRF tokens, and artifact zipping to manage integration packages, iFlows, message mappings and value mappings.",
+      "technologies": ["TypeScript", "SAP Cloud Integration", "SAP BTP", "REST API"],
+      "stars": 0,
+      "forks": 0,
+      "language": "TypeScript",
+      "liveUrl": "",
+      "githubUrl": "https://github.com/manoj-iflowdev/sci-rest-client",
+      "isNew": false,
+      "image": "assets/img/project-sci-rest-client.png"
+    },
+    {
+      "name": "sap-cloud-integration-odata-api-v2-clients",
+      "description": "A TypeScript client library, generated with the SAP Cloud SDK, for consuming SAP Cloud Integration's OData v2 APIs on SAP BTP — cutting repetitive tsconfig and codegen boilerplate from integration projects.",
+      "technologies": ["TypeScript", "SAP Cloud SDK", "SAP Cloud Integration", "SAP BTP", "OData"],
+      "stars": 0,
+      "forks": 0,
+      "language": "TypeScript",
+      "liveUrl": "",
+      "githubUrl": "https://github.com/manoj-iflowdev/sap-cloud-integration-odata-api-v2-clients",
+      "isNew": false,
+      "image": "assets/img/project-sap-cloud-integration-odata-api-v2-clients.png"
+    }
+  ]
 }
