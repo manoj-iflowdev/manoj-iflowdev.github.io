@@ -40,7 +40,7 @@
         "Postman",
         "Git"
       ],
-      "http\://www\.w3.org/2000/svg"
+      "http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg"
     },
     {
       "pid": "1037",
@@ -76,7 +76,7 @@
         "SSL/TLS",
         "SAP BTP"
       ],
-      "http\://www\.w3.org/2000/svg"
+      "http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg"
     }
   ]
 }
