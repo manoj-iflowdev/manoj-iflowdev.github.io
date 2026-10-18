@@ -6,7 +6,7 @@ Personal portfolio for **Manoj Gali**, Senior SAP CPI Integration Consultant.
 
 ## About
 
-A single-page, terminal-inspired portfolio in a monochrome neo-brutalist style. It covers experience across ConocoPhillips, JPMorgan Chase, Bal Pharma and Nike, plus skills, projects, education and a contact section. There is also an interactive terminal: press `Ctrl + K`.
+A single-page, terminal-inspired portfolio in a monochrome neo-brutalist style. It covers experience across CONA Services LLC (Coca-Cola North American Bottling Ecosystem), Schnider Electric, plus skills, projects, education and a contact section. There is also an interactive terminal: press `Ctrl + K`.
 
 ## Tech stack
 
