@@ -43,7 +43,7 @@ Edit the JSON files in `data/`, not the HTML.
 | Project cover image | `data/projects.json` | `image` (per project) |
 | Work history, skills, links | the matching JSON file | |
 
-Put images in `assets/img/` and reference them by relative path, for example `assets/img/logos/nike.svg`.
+Put images in `assets/img/` and reference them by relative path, for example `assets/img/logos/schnider electric.svg`.
 
 ## Run locally
 
