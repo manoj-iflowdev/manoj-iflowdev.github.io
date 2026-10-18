@@ -9,7 +9,7 @@
       "startDate": "June 2025",
       "endDate": "Current",
       "status": "STOPPED",
-      "description": "Designed and implemented enterprise integrations using SAP CPI to connect SAP S/4HANA, SAP ECC, and external systems across oil & gas business domains.\nBuilt and optimized iFlows using Groovy scripting, Message Mapping, Content Modifiers, and XSLT for complex data transformations.\nDeveloped real-time and batch integrations using REST, SOAP, OData, IDoc, and SFTP interfaces.\nImplemented secure integration mechanisms using OAuth 2.0, SSL certificates, Basic Authentication, and SAP Cloud Connector.\nSupported SAP landscape modernization initiatives including SAP S/4HANA migration and legacy interface decommissioning.\nMonitored and troubleshot integration issues using SAP CPI Monitoring, Message Processing Logs, and Exception Subprocesses to ensure high availability.\nCollaborated with functional and technical teams to translate business requirements into scalable SAP BTP Integration Suite solutions.\nEnsured compliance with SAP Clean Core principles, integration best practices, and enterprise security standards.\nPerformed performance tuning and error-handling enhancements to support high-volume transactional processing.\nCreated technical documentation and supported delivery using JIRA, Confluence, Postman, and Git.",
+      "description": "Designed and implemented enterprise integrations using SAP CPI to connect SAP S/4HANA, SAP ECC, and external systems across various business domains.\nBuilt and optimized iFlows using Groovy scripting, Message Mapping, Content Modifiers, and XSLT for complex data transformations.\nDeveloped real-time and batch integrations using REST, SOAP, OData, IDoc, and SFTP interfaces.\nImplemented secure integration mechanisms using OAuth 2.0, SSL certificates, Basic Authentication, and SAP Cloud Connector.\nSupported SAP landscape modernization initiatives including SAP S/4HANA migration and legacy interface decommissioning.\nMonitored and troubleshot integration issues using SAP CPI Monitoring, Message Processing Logs, and Exception Subprocesses to ensure high availability.\nCollaborated with functional and technical teams to translate business requirements into scalable SAP BTP Integration Suite solutions.\nEnsured compliance with SAP Clean Core principles, integration best practices, and enterprise security standards.\nPerformed performance tuning and error-handling enhancements to support high-volume transactional processing.\nCreated technical documentation and supported delivery using JIRA, Confluence, Postman, and Git.",
       "achievements": [
         "Designed and implemented enterprise integrations using SAP CPI to connect SAP S/4HANA, SAP ECC, and external systems across oil & gas business domains.",
         "Built and optimized iFlows using Groovy scripting, Message Mapping, Content Modifiers, and XSLT for complex data transformations.",
@@ -40,7 +40,7 @@
         "Postman",
         "Git"
       ],
-      "logo": "assets/img/logos/conocophillips.svg"
+      "logo": "assets/img/logos/cona.png"
     },
     {
       "pid": "1037",
@@ -76,7 +76,7 @@
         "SSL/TLS",
         "SAP BTP"
       ],
-      "logo": "assets/img/logos/nike.svg"
+      "logo": "assets/img/logos/schneider-electric.png"
     }
   ]
 }
