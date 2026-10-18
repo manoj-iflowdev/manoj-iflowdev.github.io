@@ -39,7 +39,7 @@
       "icon": "email"
     }
   ],
-  "resumeUrl": "resumeUrl": "assets/files/resume.pdf.pdf",
+  "resumeUrl" : "assets/files/resume.pdf.pdf",
   "stats": {
     "experience": "5+ years",
     "projects": 10,
