@@ -40,7 +40,7 @@
         "Postman",
         "Git"
       ],
-      "logo": "assets/img/logos/cona.png"
+      "http\://www\.w3.org/2000/svg"
     },
     {
       "pid": "1037",
@@ -76,7 +76,7 @@
         "SSL/TLS",
         "SAP BTP"
       ],
-      "logo": "assets/img/logos/schneider-electric.png"
+      "http\://www\.w3.org/2000/svg"
     }
   ]
 }
