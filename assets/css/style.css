@@ -968,31 +968,16 @@ main {
   border: 2px solid var(--border);
   background: var(--surface);
   padding: 1.5rem;
-  transition: var(--transition);
   position: relative;
-}
-
-.skill-category-card::before {
-  content: '';
-  position: absolute;
-  top: 2px;
-  left: 2px;
-  right: -4px;
-  bottom: -4px;
-  background: var(--border);
-  z-index: -1;
-  transition: var(--transition);
+  /* Hard offset shadow via box-shadow. (A z-index:-1 ::before shadow turned the
+     whole card black on hover, because transform creates a stacking context.) */
+  box-shadow: 4px 4px 0 0 var(--border);
+  transition: transform 0.3s cubic-bezier(0.2, 0, 0, 1), box-shadow 0.3s cubic-bezier(0.2, 0, 0, 1);
 }
 
 .skill-category-card:hover {
   transform: translate(-2px, -2px);
-}
-
-.skill-category-card:hover::before {
-  top: 4px;
-  left: 4px;
-  right: -6px;
-  bottom: -6px;
+  box-shadow: 6px 6px 0 0 var(--border);
 }
 
 .skill-category-name {
