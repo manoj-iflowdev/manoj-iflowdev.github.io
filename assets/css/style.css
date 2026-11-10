@@ -664,6 +664,7 @@ main {
   height: 100%;
   object-fit: cover;
   display: block;
+  background: var(--surface);
 }
 
 .about-available-badge {
@@ -1136,14 +1137,18 @@ main {
   padding: 1.5rem;
   display: flex;
   flex-direction: column;
-  transition: var(--transition);
+  /* Animate only transform + shadow (not `all`) and keep the card on a stable
+     GPU layer, so hovering doesn't re-rasterize the cover image (black flash). */
+  transition: transform 0.3s cubic-bezier(0.2, 0, 0, 1), box-shadow 0.3s cubic-bezier(0.2, 0, 0, 1);
+  transform: translateZ(0);
+  backface-visibility: hidden;
   position: relative;
   box-shadow: var(--shadow-md);
 }
 
 .project-card:hover {
   box-shadow: var(--shadow-lg);
-  transform: translate(-2px, -2px);
+  transform: translate3d(-2px, -2px, 0);
 }
 
 /* "LATEST WORK" rotated badge */
