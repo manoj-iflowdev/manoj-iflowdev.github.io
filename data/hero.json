@@ -7,9 +7,9 @@
   "name": "Manoj Gali",
   "tagline": "Available for work",
   "roles": [
-    "SAP CPI Consultant",
-    "Senior SAP CPI Integration Consultant",
-    "SAP CPI Integration Consultant"
+    "AI / ML Engineer",
+    "Applied AI Engineer",
+    "Forward-Deployed AI Systems"
   ],
   "bootSequence": [
     "[OK] Loading kernel modules...",
@@ -20,12 +20,12 @@
     "[OK] System ready."
   ],
   "techTags": [
-    "Groovy Scripting",
-    "XSLT",
-    "User-Defined Functions (UDFs)",
-    "Agile / Scrum",
-    "JIRA",
-    "Confluence"
+    "Python",
+    "LLM APIs",
+    "RAG",
+    "AI Agents",
+    "PyTorch",
+    "LangChain"
   ],
   "socialLinks": [
     {
@@ -34,12 +34,17 @@
       "icon": "github"
     },
     {
+      "label": "LinkedIn",
+      "url": "https://www.linkedin.com/in/manojdev451",
+      "icon": "linkedin"
+    },
+    {
       "label": "Email",
       "url": "mailto:manoj.gali695@gmail.com",
       "icon": "email"
     }
   ],
-  "resumeUrl" : "assets/files/resume.pdf.pdf",
+  "resumeUrl": "assets/files/resume.pdf",
   "stats": {
     "experience": "5+ years",
     "projects": 10,

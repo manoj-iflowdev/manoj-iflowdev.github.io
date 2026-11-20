@@ -1,12 +1,12 @@
 # Manoj Gali | Portfolio
 
-Personal portfolio for **Manoj Gali**, Senior SAP CPI Integration Consultant.
+Personal portfolio for **Manoj Gali**, AI / ML Engineer (Applied AI, forward-deployed systems).
 
 **Live site:** https://manojgali.com (also at https://manoj-iflowdev.github.io)
 
 ## About
 
-A single-page, terminal-inspired portfolio in a monochrome neo-brutalist style. It covers experience across CONA Services LLC (Coca-Cola North American Bottling Ecosystem), Schnider Electric, plus skills, projects, education and a contact section. There is also an interactive terminal: press `Ctrl + K`.
+A single-page, terminal-inspired portfolio in a monochrome neo-brutalist style. It covers experience across Vectara and E42.ai, plus skills, projects, education and a contact section. There is also an interactive terminal: press `Ctrl + K`.
 
 ## Tech stack
 
@@ -43,7 +43,7 @@ Edit the JSON files in `data/`, not the HTML.
 | Project cover image | `data/projects.json` | `image` (per project) |
 | Work history, skills, links | the matching JSON file | |
 
-Put images in `assets/img/` and reference them by relative path, for example `assets/img/logos/schnider electric.svg`.
+Put images in `assets/img/` and reference them by relative path, for example `assets/img/logos/vectara.png`.
 
 ## Run locally
 

@@ -1,8 +1,8 @@
 {
   "heading": "$ cat about.md",
   "bio": [
-    "Senior SAP CPI Consultant with 5+ years of experience in SAP integration technologies, specializing in SAP CPI, PI/PO, and hybrid integration landscapes. Proven expertise in designing, developing, and optimizing scalable integration solutions, ensuring secure, high-performance data exchange across SAP and non-SAP systems.",
-    "Seeking to contribute deep technical knowledge and integration best practices to complex enterprise transformation initiatives."
+    "AI/ML Engineer with 5+ years building enterprise AI in the United States and India. Currently an Applied AI Engineer at Vectara, delivering production RAG systems and AI agents with measurable retrieval quality and grounded responses; previously built NLP and intelligent automation for enterprise clients at E42.ai.",
+    "Works end to end, from retrieval design and model evaluation to backend APIs, cloud deployment, and hands-on integration with customer engineering teams. MS in Computer Science, Trine University."
   ],
   "highlights": [
     {
@@ -10,14 +10,14 @@
       "value": "5+"
     },
     {
-      "label": "Projects Completed",
-      "value": "10+"
+      "label": "Production Deployments",
+      "value": "20+"
     },
     {
-      "label": "Technologies",
-      "value": "55+"
+      "label": "Enterprise Customers",
+      "value": "8+"
     }
   ],
-  "currentFocus": "SAP CPI Consultant",
+  "currentFocus": "Applied AI Engineer",
   "avatarUrl": "assets/img/manoj.jpg"
 }

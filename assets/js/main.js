@@ -638,7 +638,7 @@
     if (marquee) {
       var heroName = (heroData && heroData.name) || 'Developer';
       var roles = (heroData && heroData.roles) ? heroData.roles.join(' | ') : 'Software Engineer';
-      var text = heroName + ' &nbsp;&bull;&nbsp; ' + roles + ' &nbsp;&bull;&nbsp; Designing clean UI/UX &nbsp;&bull;&nbsp; Open to opportunities &nbsp;&bull;&nbsp; ';
+      var text = heroName + ' &nbsp;&bull;&nbsp; ' + roles + ' &nbsp;&bull;&nbsp; Building production AI systems &nbsp;&bull;&nbsp; Open to opportunities &nbsp;&bull;&nbsp; ';
       marquee.innerHTML = text + text; // Duplicate for seamless scroll
     }
 
