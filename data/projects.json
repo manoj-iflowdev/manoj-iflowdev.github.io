@@ -20,6 +20,56 @@
       "githubUrl": "",
       "isNew": false,
       "image": ""
+    },
+    {
+      "name": "ai_soc",
+      "description": "A local AI security operations center: Wazuh-format alert ingestion, ML flow classification, LLM triage with Ollama, retrieval over security knowledge (RAG), incident correlation, analyst review with role-based accounts, Sigma rule export, and dry-run response plans.",
+      "technologies": ["Python", "Ollama", "RAG", "PostgreSQL", "Docker Compose", "Grafana"],
+      "language": "Python",
+      "liveUrl": "",
+      "githubUrl": "https://github.com/manoj-iflowdev/ai_soc",
+      "isNew": false,
+      "image": ""
+    },
+    {
+      "name": "driftguard",
+      "description": "A self-monitoring ML lifecycle: train, track and register with MLflow, serve with FastAPI, detect drift (PSI and KS, feature vs concept drift), then auto-retrain and promote. On a real 2011→2012 demand shift it detects concept drift and cuts held-out MAE by 44.6%.",
+      "technologies": ["Python", "MLflow", "FastAPI", "Drift Detection", "Docker"],
+      "language": "Python",
+      "liveUrl": "",
+      "githubUrl": "https://github.com/manoj-iflowdev/driftguard",
+      "isNew": false,
+      "image": ""
+    },
+    {
+      "name": "email-phishing-detection",
+      "description": "Analyzes .eml and .msg emails for phishing using header authentication (SPF, DKIM, DMARC), URL and typosquatting checks, attachment hashing, OCR on images, async VirusTotal lookups, and an LLM assessment that returns a structured phishing score and verdict.",
+      "technologies": ["Python", "LLM APIs", "OCR", "VirusTotal API", "asyncio", "SQLite"],
+      "language": "Python",
+      "liveUrl": "",
+      "githubUrl": "https://github.com/manoj-iflowdev/email-phishing-detection",
+      "isNew": false,
+      "image": ""
+    },
+    {
+      "name": "creditcardfrauddetection-mlops",
+      "description": "Credit card fraud detection with Logistic Regression, Random Forest, and XGBoost models, DVC-versioned data, a Flask app for risk-segmented predictions, and LangChain-generated natural-language explanations of each result, containerized with Docker.",
+      "technologies": ["Python", "XGBoost", "scikit-learn", "DVC", "LangChain", "Flask", "Docker"],
+      "language": "Python",
+      "liveUrl": "",
+      "githubUrl": "https://github.com/manoj-iflowdev/creditcardfrauddetection-mlops",
+      "isNew": false,
+      "image": ""
+    },
+    {
+      "name": "text-analysis-using-nlp-streamlit",
+      "description": "An interactive Streamlit app for NLP text analysis: preprocessing, sentiment analysis, named entity recognition, part-of-speech tagging, and word clouds, with adjustable parameters for each task.",
+      "technologies": ["Python", "NLP", "Streamlit"],
+      "language": "Python",
+      "liveUrl": "",
+      "githubUrl": "https://github.com/manoj-iflowdev/text-analysis-using-nlp-streamlit",
+      "isNew": false,
+      "image": ""
     }
   ]
 }
